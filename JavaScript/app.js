@@ -93,3 +93,4 @@ alert(` ${name} is ${age} years old`);
 
 console.log(age);
 console.log(name);
+console.log();
