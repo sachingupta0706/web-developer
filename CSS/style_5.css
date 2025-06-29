@@ -1,0 +1,97 @@
+ /*     -- Universal Selector --------  */
+ * {
+     font-family: 'Segoe UI';
+ }
+
+ /*    ---   Element Selector--------- */
+
+ h1 {
+     color: #f29927;
+ }
+
+ h3 {
+     color: aqua;
+ }
+
+ /* ------   ID- Selector --------- */
+
+ #login {
+     background-color: white;
+
+     /* background-color: blue; */
+ }
+
+ #signup {
+     background-color: yellow;
+     color: red;
+ }
+
+ /* --- class selector ---- */
+ .upvote {
+     background-color: blue;
+ }
+
+ /* ---- Descendant Selector ----------- */
+
+ p a {
+     color: orange;
+ }
+
+ nav a {
+     color: aqua;
+ }
+
+ /*  -------- Adjacent Sibling Combinator -----------  */
+
+ p+h3 {
+     text-decoration: underline;
+ }
+
+ .upvote+button {
+     background-color: aqua;
+ }
+
+ /* --------- Child Combinator--------- */
+
+ div>input {
+     background-color: aqua;
+ }
+
+ /* ------- Attribute Selector --------  */
+ input[type="text"] {
+     color: red;
+ }
+
+ input[type="password"] {
+     color: red;
+ }
+
+ /*      ----- Pseudo class -----------  */
+
+ button:hover {
+     background-color: black;
+     color: white;
+ }
+
+ button:active {
+     background-color: hotpink;
+ }
+
+ input[type="radio"]:checked+label {
+     color: red;
+     font-weight: bold;
+ }
+
+ div:nth-of-type(2) {
+     background-color: blanchedalmond;
+ }
+
+ /* ------ Pseudo Elements ---------- */
+ h1::first-letter{
+    color:aqua;
+
+ }
+
+ p::selection{
+    background-color: lemonchiffon;
+ } 
